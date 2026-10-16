@@ -1,0 +1,64 @@
+site_name: ZIWEN.ICU
+site_description: 个人文章归档：网络长文抓取、翻译与原创写作
+site_url: https://angryziwen.github.io/ziwen-icu/
+repo_url: https://github.com/angryziwen/ziwen-icu
+repo_name: angryziwen/ziwen-icu
+edit_uri: edit/main/
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+nav:
+  - 首页: README.md
+  - 中文:
+      - 子文的由来：一部比亚迪内部漫画，和它的自嘲文化: articles/子文的由来：一部比亚迪内部漫画，和它的自嘲文化.md
+      - 王传福：把工程师扛在肩上的人: articles/王传福：把工程师扛在肩上的人.md
+      - 从《工程师之魂》洞悉比亚迪成功之道，8000字深度解读: articles/从《工程师之魂》洞悉比亚迪成功之道，8000字深度解读.md
+  - English:
+      - English README: README.en.md
+      - 'The Origin of "Ziwen": A BYD Internal Comic and the Culture of Self-Deprecation': articles/The Origin of Ziwen - A BYD Internal Comic and the Culture of Self-Deprecation.md
+      - 'Wang Chuanfu: The Man Who Carries His Engineers on His Shoulders': articles/Wang Chuanfu - The Man Who Carries His Engineers on His Shoulders.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en

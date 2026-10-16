@@ -6,6 +6,8 @@
 
 个人文章归档：网络长文的抓取、Markdown 转换、翻译与原创写作，配图全部本地化保存在 `images/`。
 
+🌐 在线阅读：[angryziwen.github.io/ziwen-icu](https://angryziwen.github.io/ziwen-icu/)
+
 ## 📚 文章索引
 
 | # | 文章 | 篇幅 | 配图 | 更新 |
@@ -16,7 +18,7 @@
 
 ## ⭐ Star history
 
-![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size) ![Vistors](https://komarev.com/ghpvc/?username=angryziwen-ziwen-icu&label=Vistors&color=brightgreen&style=flat-square)
+![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size) ![Visitors](https://komarev.com/ghpvc/?username=angryziwen-ziwen-icu&label=Visitors&color=brightgreen&style=flat-square)
 
 [![GitHub Star history](https://api.star-history.com/chart?repos=angryziwen/ziwen-icu&type=date)](https://www.star-history.com/?repos=angryziwen/ziwen-icu&type=date)
 
@@ -26,3 +28,4 @@
 
 - `articles/` — 文章（Markdown，中英独立成篇，文件名即标题）
 - `images/` — 文章配图与生成的曲线图
+- `docs/`、`mkdocs.yml`、`.github/workflows/` — GitHub Pages 站点（MkDocs Material；`docs/` 内是软链接，指向根目录的 `articles/` 与 `images/`）

@@ -6,6 +6,8 @@
 
 Personal article archive: scraping long-form writing from the web, converting it to Markdown, translating it, and writing original pieces — with every image stored locally under `images/`.
 
+🌐 Read online: [angryziwen.github.io/ziwen-icu](https://angryziwen.github.io/ziwen-icu/)
+
 ## 📚 Articles
 
 | # | Article | Length | Images | Updated |
@@ -15,7 +17,7 @@ Personal article archive: scraping long-form writing from the web, converting it
 
 ## ⭐ Star history
 
-![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size) ![Vistors](https://komarev.com/ghpvc/?username=angryziwen-ziwen-icu&label=Vistors&color=brightgreen&style=flat-square)
+![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size) ![Visitors](https://komarev.com/ghpvc/?username=angryziwen-ziwen-icu&label=Visitors&color=brightgreen&style=flat-square)
 
 [![GitHub Star history](https://api.star-history.com/chart?repos=angryziwen/ziwen-icu&type=date)](https://www.star-history.com/?repos=angryziwen/ziwen-icu&type=date)
 
@@ -26,3 +28,4 @@ Directory layout:
 
 - `articles/` — the articles (Markdown, Chinese and English kept as separate files; filename = title)
 - `images/` — article images and the generated chart
+- `docs/`, `mkdocs.yml`, `.github/workflows/` — the GitHub Pages site (MkDocs Material; `docs/` contains symlinks to root-level `articles/` and `images/`)
