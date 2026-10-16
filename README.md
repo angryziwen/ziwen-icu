@@ -16,7 +16,7 @@
 
 ## ⭐ Star history
 
-![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size)
+![Stars](https://img.shields.io/github/stars/angryziwen/ziwen-icu?style=flat-square&label=Star) ![Forks](https://img.shields.io/github/forks/angryziwen/ziwen-icu?style=flat-square&label=Fork) ![Watchers](https://img.shields.io/github/watchers/angryziwen/ziwen-icu?style=flat-square&label=Watch) ![Repo size](https://img.shields.io/github/repo-size/angryziwen/ziwen-icu?style=flat-square&label=Size) ![Vistors](https://komarev.com/ghpvc/?username=angryziwen-ziwen-icu&label=Vistors&color=brightgreen&style=flat-square)
 
 [![GitHub Star history](https://api.star-history.com/chart?repos=angryziwen/ziwen-icu&type=date)](https://www.star-history.com/?repos=angryziwen/ziwen-icu&type=date)
 
