@@ -63,6 +63,7 @@ plugins:
       lang:
         - zh
         - en
+      jieba_dict_user: search_dict.txt
   - social:
       cards: true
       cards_layout_options:

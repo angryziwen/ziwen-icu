@@ -41,7 +41,39 @@
         "dateModified": {{ page.update_date | tojson }}
         {%- endif %}
       }
-      {%- endif %}
+      {%- endif %},
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": {{ config.site_url | tojson }}
+          }
+          {%- if is_article %},
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ ("English" if page_lang == "en" else "中文") | tojson }},
+            "item": {{ (config.site_url ~ ("README.en/" if page_lang == "en" else "")) | tojson }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ page.title | tojson }},
+            "item": {{ page.canonical_url | tojson }}
+          }
+          {%- elif page and page.file.src_uri == "README.en.md" %},
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "English",
+            "item": {{ page.canonical_url | tojson }}
+          }
+          {%- endif %}
+        ]
+      }
     ]
   }
   </script>

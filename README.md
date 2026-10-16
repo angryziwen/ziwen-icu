@@ -2,7 +2,7 @@
 
 **[English](README.en.md)** · 简体中文
 
-![](./images/SoulOfAnEngineer.jpg)
+![《工程师之魂：比亚迪三十而立》图书封面](./images/SoulOfAnEngineer.jpg)
 
 个人文章归档：网络长文的抓取、Markdown 转换、翻译与原创写作，配图全部本地化保存在 `images/`。
 

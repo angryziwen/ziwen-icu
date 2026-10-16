@@ -3,7 +3,7 @@
 > Derived from a passage in *The Soul of the Engineer* (《工程师之魂》), supplemented with public reporting
 > Image: `../images/cry.png`
 
-![Illustration](../images/cry.png)
+![Excerpt from the source article: the passage about Wang Chuanfu weeping over below-target employee pay](../images/cry.png)
 
 ## 1. The Weight of a Tear
 
@@ -50,6 +50,65 @@ From a 2.5-million-yuan loan and a single hand-built production line to 4.6 mill
 What is truly remarkable about Wang Chuanfu may not be how many startling, hard-edged things he has said, but this: he has always believed that his engineering team is the company's most valuable asset — and he is willing to hurt — and to weep — when his people don't take home what they expected.
 
 A company's soul is, in the end, a human soul. Treat engineers as assets, treat employees as partners, and make yourself the one chiefly accountable — that is Wang Chuanfu, a "technology fanatic" who isn't afraid to weep.
+
+## FAQ
+
+**Why is Wang Chuanfu called "the tech fanatic who cries"?**
+
+The Soul of the Engineer portrays a mild-tempered man who has hardly ever berated anyone — and who weeps with self-reproach when a weak year shrinks the bonus pool and employees earn less than they expected.
+
+**How was BYD's first battery line built?**
+
+In 1995 he borrowed 2.5 million yuan, replaced costly automation with "manual labor plus fixtures", and built BYD's first nickel-battery line for about a quarter of what a Japanese line cost: "we beat their planes and artillery with nothing but millet and rifles."
+
+**How was the Blade Battery born?**
+
+At the end of 2018, against the industry's pivot to ternary cells, he kept pressing on whether lithium iron phosphate could reach 600 km of range and proposed arranging the cells "as tightly as blades".
+
+**How does he define the value of engineers?**
+
+At the 2008 annual general meeting: "The company's greatest value is not on the financial statements… the real assets are the technologies developed by our engineering team." By 2025 BYD had 120,000 R&D engineers, and more than half of the general managers reporting directly to him were graduates the company nurtured itself.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is Wang Chuanfu called \"the tech fanatic who cries\"?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Soul of the Engineer portrays a mild-tempered man who has hardly ever berated anyone — and who weeps with self-reproach when a weak year shrinks the bonus pool and employees earn less than they expected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How was BYD's first battery line built?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In 1995 he borrowed 2.5 million yuan, replaced costly automation with \"manual labor plus fixtures\", and built BYD's first nickel-battery line for about a quarter of what a Japanese line cost: \"we beat their planes and artillery with nothing but millet and rifles.\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How was the Blade Battery born?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At the end of 2018, against the industry's pivot to ternary cells, he kept pressing on whether lithium iron phosphate could reach 600 km of range and proposed arranging the cells \"as tightly as blades\"."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does he define the value of engineers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At the 2008 annual general meeting: \"The company's greatest value is not on the financial statements… the real assets are the technologies developed by our engineering team.\" By 2025 BYD had 120,000 R&D engineers, and more than half of the general managers reporting directly to him were graduates the company nurtured itself."
+      }
+    }
+  ]
+}
+</script>
 
 ---
 

@@ -52,6 +52,65 @@ Against that backdrop, a comic strip unexpectedly took on the job of exporting B
 
 **The origin of Ziwen is, in the end, a piece of internal propaganda that failed; and the fact that "Ziwen" became a meme shows that the company finally has a word everyone understands.** The difference is that the people who understand it use it to laugh bitterly — not to pledge their dedication.
 
+## FAQ
+
+**What exactly is "Ziwen"?**
+
+The protagonist of an internal comic issued by BYD's President's Office at the end of May 2024 — and later adopted by employees as the self-deprecating shorthand for "I can't keep grinding, and I can't get out."
+
+**What does the comic say?**
+
+It has two characters, Ziwen and Anran, who join BYD on the same day. Twelve years later Anran is a department manager, while Ziwen drifts through years of mediocrity and, two years after quitting, still has no job. Meant to urge employees on, it backfired: staff identified with the failure.
+
+**Why did it appear in May 2024?**
+
+It landed in the middle of a management overhaul: a five-tier performance system only five months old, a running "Competition Culture Month", a slogan changed from "surpass" to "win", and three consecutive "needs improvement" ratings that could end in termination. The comic was deleted soon after publication.
+
+**Why do employees say "I'm Ziwen" as self-deprecation?**
+
+BYD hired close to 60,000 engineers in two and a half years, performance reviews sharpened the old-versus-new divide, and the promotion ladder kept narrowing — so "I'm Ziwen" became a safe way to complain.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What exactly is \"Ziwen\"?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The protagonist of an internal comic issued by BYD's President's Office at the end of May 2024 — and later adopted by employees as the self-deprecating shorthand for \"I can't keep grinding, and I can't get out.\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the comic say?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It has two characters, Ziwen and Anran, who join BYD on the same day. Twelve years later Anran is a department manager, while Ziwen drifts through years of mediocrity and, two years after quitting, still has no job. Meant to urge employees on, it backfired: staff identified with the failure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why did it appear in May 2024?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It landed in the middle of a management overhaul: a five-tier performance system only five months old, a running \"Competition Culture Month\", a slogan changed from \"surpass\" to \"win\", and three consecutive \"needs improvement\" ratings that could end in termination. The comic was deleted soon after publication."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do employees say \"I'm Ziwen\" as self-deprecation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BYD hired close to 60,000 engineers in two and a half years, performance reviews sharpened the old-versus-new divide, and the promotion ladder kept narrowing — so \"I'm Ziwen\" became a safe way to complain."
+      }
+    }
+  ]
+}
+</script>
+
 ---
 
 **Sources**

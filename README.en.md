@@ -2,7 +2,7 @@
 
 **[简体中文](README.md)** · English
 
-![](./images/SoulOfAnEngineer.jpg)
+![Cover of the BYD book "The Soul of the Engineer" (工程师之魂), published by CITIC](./images/SoulOfAnEngineer.jpg)
 
 Personal article archive: scraping long-form writing from the web, converting it to Markdown, translating it, and writing original pieces — with every image stored locally under `images/`.
 
