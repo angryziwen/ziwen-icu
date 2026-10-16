@@ -1,2 +1,4 @@
 mkdocs-material>=9.5,<10
 jieba
+pillow
+cairosvg

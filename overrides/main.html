@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{#- 额外的 SEO 元数据：og 补充标签 + JSON-LD 结构化数据
+     （og:title/description/url/image 与 twitter:* 已由 social 插件自动生成）-#}
+{% block extrahead %}
+  {{ super() }}
+
+  {% set is_article = page and page.file.src_uri.startswith("articles/") %}
+  {% set page_lang = "en" if page and page.file.src_uri.isascii() else "zh-Hans" %}
+
+  <meta property="og:site_name" content="{{ config.site_name }}">
+
+  {#- JSON-LD 结构化数据：站点 + 搜索框（文章页追加 Article 节点） -#}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": {{ config.site_name | tojson }},
+        "url": {{ config.site_url | tojson }},
+        "description": {{ config.site_description | tojson }},
+        "inLanguage": {{ page_lang | tojson }},
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {"@type": "EntryPoint", "urlTemplate": {{ (config.site_url ~ "?q={search_term_string}") | tojson }}},
+          "query-input": "required name=search_term_string"
+        }
+      }
+      {%- if is_article %},
+      {
+        "@type": "Article",
+        "headline": {{ page.title | tojson }},
+        "url": {{ page.canonical_url | tojson }},
+        "image": {{ (config.site_url ~ "images/SoulOfAnEngineer.jpg") | tojson }},
+        "inLanguage": {{ page_lang | tojson }},
+        "author": {"@type": "Person", "name": "ziwen", "url": "https://github.com/angryziwen"},
+        "publisher": {"@type": "Organization", "name": {{ config.site_name | tojson }}},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page.canonical_url | tojson }}}
+        {%- if page.update_date %},
+        "dateModified": {{ page.update_date | tojson }}
+        {%- endif %}
+      }
+      {%- endif %}
+    ]
+  }
+  </script>
+{% endblock %}

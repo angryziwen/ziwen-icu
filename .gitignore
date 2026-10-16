@@ -2,3 +2,4 @@ AGENTS.md
 CLAUDE.md
 site/
 __pycache__/
+.cache/

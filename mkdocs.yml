@@ -9,6 +9,7 @@ site_dir: site
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   features:
     - navigation.tabs
@@ -62,3 +63,17 @@ plugins:
       lang:
         - zh
         - en
+  - social:
+      cards: true
+      cards_layout_options:
+        background_color: "#3F51B5"
+        color: "#FFFFFF"
+
+extra:
+  alternate:
+    - name: 简体中文
+      link: https://angryziwen.github.io/ziwen-icu/
+      lang: zh-Hans
+    - name: English
+      link: https://angryziwen.github.io/ziwen-icu/README.en/
+      lang: en
