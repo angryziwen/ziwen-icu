@@ -5,7 +5,7 @@
 {% block extrahead %}
   {{ super() }}
 
-  {% set is_article = page and page.file.src_uri.startswith("articles/") %}
+  {% set is_article = page and page.file.src_uri.startswith("articles/") and not page.file.src_uri.endswith("/index.md") %}
   {% set page_lang = "en" if page and page.file.src_uri.isascii() else "zh-Hans" %}
 
   <meta property="og:site_name" content="{{ config.site_name }}">
@@ -28,15 +28,19 @@
         }
       }
       {%- if is_article %},
+      {%- set article_author = page.meta.article_author if page.meta and page.meta.article_author else "ziwen" %}
       {
         "@type": "Article",
-        "headline": {{ page.title | tojson }},
+        "headline": {{ (page.meta.title if page.meta and page.meta.title else page.title) | tojson }},
         "url": {{ page.canonical_url | tojson }},
         "image": {{ (config.site_url ~ "images/SoulOfAnEngineer.jpg") | tojson }},
         "inLanguage": {{ page_lang | tojson }},
-        "author": {"@type": "Person", "name": "ziwen", "url": "https://github.com/angryziwen"},
+        "author": {"@type": "Person", "name": {{ article_author | tojson }}{% if not (page.meta and page.meta.article_author) %}, "url": "https://github.com/angryziwen"{% endif %}},
         "publisher": {"@type": "Organization", "name": {{ config.site_name | tojson }}},
         "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page.canonical_url | tojson }}}
+        {%- if page.meta and page.meta.article_source %},
+        "isBasedOn": {{ page.meta.article_source | tojson }}
+        {%- endif %}
         {%- if page.update_date %},
         "dateModified": {{ page.update_date | tojson }}
         {%- endif %}

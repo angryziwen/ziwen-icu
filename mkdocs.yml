@@ -38,6 +38,12 @@ theme:
 
 nav:
   - 首页: README.md
+  - 专题·子文心声:
+      - 专题说明: articles/子文心声/index.md
+      - 001 致比某迪各位主管、经理的一封信: articles/子文心声/001-致比某迪各位主管经理的一封信.md
+  - Ziwen Voices:
+      - About: articles/ziwen-voices/index.md
+      - "001 A Letter to BYD's Supervisors and Managers": articles/ziwen-voices/001-a-letter-to-byd-supervisors-and-managers.md
   - 中文:
       - 子文的由来：一部比亚迪内部漫画，和它的自嘲文化: articles/子文的由来：一部比亚迪内部漫画，和它的自嘲文化.md
       - 王传福：把工程师扛在肩上的人: articles/王传福：把工程师扛在肩上的人.md
@@ -50,6 +56,7 @@ nav:
 markdown_extensions:
   - admonition
   - attr_list
+  - meta
   - tables
   - toc:
       permalink: true

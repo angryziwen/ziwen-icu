@@ -8,6 +8,18 @@
 
 🌐 在线阅读：[angryziwen.github.io/ziwen-icu](https://angryziwen.github.io/ziwen-icu/)
 
+## 🗣️ 专题：子文心声
+
+> 这里没有安然，只有子文。
+
+只收录比亚迪员工（“子文”）的第一人称原文，不改写、不评论。
+
+| # | 篇目 | 形式 | 收录 |
+|---|---|---|---|
+| 001 | [致比某迪各位主管、经理的一封信](<articles/子文心声/001-致比某迪各位主管经理的一封信.md>) | 子文来信 | 2026-10-22 |
+
+专题说明：[子文心声](<articles/子文心声/index.md>) · English: [Ziwen Voices](<articles/ziwen-voices/index.md>)
+
 ## 📚 文章索引
 
 | # | 文章 | 篇幅 | 配图 | 更新 |

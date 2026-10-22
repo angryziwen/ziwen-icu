@@ -8,6 +8,18 @@ Personal article archive: scraping long-form writing from the web, converting it
 
 🌐 Read online: [angryziwen.github.io/ziwen-icu](https://angryziwen.github.io/ziwen-icu/)
 
+## 🗣️ Ziwen Voices
+
+> There is no Anran here. Only Ziwen.
+
+First-person texts by BYD employees ("Ziwen"), published without rewriting or commentary.
+
+| # | Piece | Format | Collected |
+|---|---|---|---|
+| 001 | [A Letter to BYD's Supervisors and Managers](<articles/ziwen-voices/001-a-letter-to-byd-supervisors-and-managers.md>) | A Letter from Ziwen | 2026-10-22 |
+
+About the series: [Ziwen Voices](<articles/ziwen-voices/index.md>) · [中文：子文心声](<articles/子文心声/index.md>)
+
 ## 📚 Articles
 
 | # | Article | Length | Images | Updated |
